@@ -5,6 +5,7 @@ This project contains automated tests for the CookUnity website using Playwright
 Project Structure
 
 cookunityFront/
+
 ├── tests/                
 ├── pages/                 
 ├── playwright.config.js  
