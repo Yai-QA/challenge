@@ -6,3 +6,9 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 
+# Cypress
+api-gorest/cypress/videos/*.mp4
+api-gorest/cypress/screenshots/*.png
+api-gorest/cypress/downloads/*
+
+
