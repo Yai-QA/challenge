@@ -5,11 +5,11 @@ This project contains automated tests for the CookUnity website using Playwright
 Project Structure
 
 cookunityFront/
-├── tests/                 Automated tests
-├── pages/                 Page Objects
-├── playwright.config.js   Playwright configuration
-├── package.json           Dependencies and scripts
-└── test-results/          Test results
+├── tests/                
+├── pages/                 
+├── playwright.config.js  
+├── package.json           
+└── test-results/         
 
 Prerequisites
 - Node.js (version 14 or higher)
