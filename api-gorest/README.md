@@ -1,4 +1,4 @@
-# GoRest API Test Automation
+ GoRest API Test Automation
 
 This project contains automated API tests using Cypress for the GoRest public API service.
 Project Structure
