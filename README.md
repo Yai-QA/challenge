@@ -15,6 +15,7 @@ Frontend Testing
   - Playwright
   - JavaScript
   - Page Object Model
+  - 
 API Testing
   - Cypress
   - JavaScript
