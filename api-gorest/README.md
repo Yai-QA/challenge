@@ -1,74 +1,59 @@
 # GoRest API Test Automation
 
 This project contains automated API tests using Cypress for the GoRest public API service.
-
-## Project Structure
-
+Project Structure
 api-gorest/
 ├── cypress/
-│   ├── e2e/           # Test files
-│   ├── fixtures/      # Test data
-│   ├── support/       # Support files
-│   └── screenshots/   # Test screenshots
-├── cypress.config.js  # Cypress configuration
-└── package.json       # Project dependencies
+│   ├── e2e/           Test files
+│   ├── fixtures/      Test data
+│   ├── support/       Support files
+│   └── screenshots/   Test screenshots
+├── cypress.config.js  Cypress configuration
+└── package.json       Project dependencies
 
-## Prerequisites
-
+Prerequisites
 - Node.js (version 14 or higher)
 - npm (included with Node.js)
 
-## Installation
-
+Installation
 1. Clone the repository:
-   git clone <YOUR_REPO_URL>
+   git clone <https://github.com/Yai-QA/challenge.git>
    cd api-gorest
 
 2. Install dependencies:
    npm install
-
-## Running Tests
-
-### Run all tests
+   
+ Running Tests
+ 
+Run all tests
 npx cypress run
 
-### Run tests with UI
+Run tests with UI
 npx cypress open
 
-## Test Description
-
+Test Description
 The project includes automated API tests for:
 1. Getting user list
 2. Finding active users
 3. Updating user information
 4. Validating API responses
 
-### Validations
+Validations
 - Response status codes
 - Response body structure
 - Data integrity
 - Error handling
 
-## Configuration
-
+Configuration
 The `cypress.config.js` file contains the main configuration:
 - Base URL: https://gorest.co.in/public/v1
 - API endpoints
 - Authentication settings
 
-## Additional Notes
+Additional Notes
 - Tests use the GoRest public API
 - Authentication token is required for some endpoints
 - Tests include both positive and negative scenarios
 
-## API Documentation
+API Documentation
 For more information about the API, visit: [GoRest API Documentation](https://gorest.co.in/)
-
-## Contributing
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Project Link: [https://github.com/tuusuario/api-gorest](https://github.com/tuusuario/api-gorest)
