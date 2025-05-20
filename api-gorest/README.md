@@ -4,12 +4,12 @@ This project contains automated API tests using Cypress for the GoRest public AP
 Project Structure
 api-gorest/
 ├── cypress/
-│   ├── e2e/           Test files
-│   ├── fixtures/      Test data
-│   ├── support/       Support files
-│   └── screenshots/   Test screenshots
-├── cypress.config.js  Cypress configuration
-└── package.json       Project dependencies
+│   ├── e2e/           
+│   ├── fixtures/     
+│   ├── support/      
+│   └── screenshots/   
+├── cypress.config.js  
+└── package.json       
 
 Prerequisites
 - Node.js (version 14 or higher)
@@ -24,10 +24,8 @@ Installation
    npm install
    
  Running Tests
- 
 Run all tests
 npx cypress run
-
 Run tests with UI
 npx cypress open
 
@@ -38,12 +36,6 @@ The project includes automated API tests for:
 3. Updating user information
 4. Validating API responses
 
-Validations
-- Response status codes
-- Response body structure
-- Data integrity
-- Error handling
-
 Configuration
 The `cypress.config.js` file contains the main configuration:
 - Base URL: https://gorest.co.in/public/v1
@@ -53,7 +45,6 @@ The `cypress.config.js` file contains the main configuration:
 Additional Notes
 - Tests use the GoRest public API
 - Authentication token is required for some endpoints
-- Tests include both positive and negative scenarios
 
 API Documentation
 For more information about the API, visit: [GoRest API Documentation](https://gorest.co.in/)
