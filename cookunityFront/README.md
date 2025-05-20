@@ -5,31 +5,26 @@ This project contains automated tests for the CookUnity website using Playwright
 Project Structure
 
 cookunityFront/
-├── tests/              # Automated tests
-├── pages/             # Page Objects
-├── playwright.config.js # Playwright configuration
-├── package.json       # Dependencies and scripts
-└── test-results/      # Test results
+├── tests/                 Automated tests
+├── pages/                 Page Objects
+├── playwright.config.js   Playwright configuration
+├── package.json           Dependencies and scripts
+└── test-results/          Test results
 
 Prerequisites
-
 - Node.js (version 14 or higher)
 - npm (included with Node.js)
 
 Installation
-
 1. Clone the repository:
-   git clone <>
+   git clone <https://github.com/Yai-QA/challenge.git>
    cd cookunityFront
-
 2. Install dependencies:
    npm install
-
 3. Install required browsers:
    npx playwright install
 
 Running Tests
-
 Run all tests
 npx playwright test
 
@@ -61,7 +56,6 @@ Validations
 - "Meal selected" section shows "0/6"
 
 Configuration
-
 The `playwright.config.js` file contains the main configuration:
 - Supported browsers
 - Timeouts
